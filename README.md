@@ -45,8 +45,8 @@ ID;arrival_time;duration;priority
 
 Example:
 
-t0;0;5;1
-t1;2;3;2
+- t0;0;5;1
+- t1;2;3;2
 
 ---
 
@@ -64,7 +64,7 @@ Example:
 
 python trab-so.py entrada.txt fcfs
 
-Available algorithms:
+### Available algorithms:
 
 fcfs | rr | sjf | srtf | prioc | priop | priod
 
